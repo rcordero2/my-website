@@ -56,7 +56,7 @@ section {
 
 .container-home{
   padding-left: 0 !important;
-  padding-right: 3rem !important;
+  padding-right: 5rem !important;
 }
 .grid-content{
   display: grid;
@@ -70,6 +70,7 @@ section {
   align-items: center;
   position:relative;
 }
+
 .grid-content .right-column{
   display:flex;
   flex-direction: column;
