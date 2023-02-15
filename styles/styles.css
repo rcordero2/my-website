@@ -69,6 +69,11 @@ section {
   display: flex;
   align-items: center;
   position:relative;
+
+}
+
+.flex-container {
+  display: flex;
 }
 
 .grid-content .right-column{
@@ -85,4 +90,21 @@ section {
   border-radius: 14px;
 }
 
+.container-experience li {
+  padding-bottom: 1rem;
+}
+
+.grid-content-certificate{
+  display: grid;
+  min-height: 50vh;
+  column-gap: 2rem;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 2rem;
+  
+}
+.grid-content-certificate .item{
+  display: flex;
+  align-items: center;
+  position:relative;
+}
 /*# sourceMappingURL=styles.css.map */
