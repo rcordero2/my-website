@@ -107,4 +107,22 @@ section {
   align-items: center;
   position:relative;
 }
+
+.container-home i{
+  padding-left: 6rem;
+}
+
+.contact i{
+  color:var(--color-white);
+}
+
+.contact i:hover{
+  color:var(--color-secondary);
+}
+.contact{
+  display: flex;
+  align-items: center;
+  position:relative;
+  padding-top: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */
